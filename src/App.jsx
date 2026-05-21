@@ -506,77 +506,211 @@ function App() {
 
 </section>
       {/* CONTACT */}
-      <section id="contact" className="py-28 px-6 relative z-10">
+     {/* CONTACT */}
+<section id="contact" className="py-32 px-6 relative z-10">
 
-        <div className="max-w-7xl mx-auto">
+  <div className="max-w-7xl mx-auto">
 
-          <h2 className="text-5xl font-bold text-center mb-20 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-            Get In Touch
-          </h2>
+    {/* HEADING */}
+    <h2 className="text-6xl font-bold text-center mb-20 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
+      Get In Touch
+    </h2>
 
-          <div className="grid lg:grid-cols-2 gap-16">
+    <div className="grid lg:grid-cols-2 gap-16 items-start">
 
-            <div className="bg-white/5 border border-white/10 rounded-3xl backdrop-blur-md p-10 space-y-8">
+      {/* LEFT SIDE */}
+      <div className="space-y-10">
 
-              <div>
-                <h3 className="text-2xl font-semibold text-cyan-400 mb-3">
-                  Email
-                </h3>
+        <div className="space-y-6 text-center lg:text-left">
 
-                <p className="text-gray-300">
-                  muskangautam9876@gmail.com
-                </p>
-              </div>
+          <p className="text-gray-300 text-2xl leading-10">
+            Have a project in mind or just want to say hello?
+            Feel free to reach out!
+          </p>
 
-              <div>
-                <h3 className="text-2xl font-semibold text-purple-400 mb-3">
-                  LinkedIn
-                </h3>
+          <p className="text-gray-400 text-xl leading-9">
+            I'm always open to discussing new projects,
+            creative ideas, or opportunities to be part
+            of your vision.
+          </p>
 
-                <p className="text-gray-300">
-                  linkedin.com/in/muskan-gautam
-                </p>
-              </div>
+        </div>
 
+        {/* CONTACT ITEMS */}
+        <div className="space-y-8">
+
+          {/* EMAIL */}
+          <a
+            href="mailto:muskangautam9876@gmail.com"
+            className="flex items-center gap-5 group"
+          >
+
+            <div className="w-16 h-16 rounded-2xl bg-purple-500/10 flex items-center justify-center text-3xl text-purple-400 group-hover:scale-110 transition">
+              <FaEnvelope />
             </div>
 
-            <div className="bg-white/5 border border-white/10 rounded-3xl backdrop-blur-md p-10">
+            <div>
+              <h3 className="text-2xl font-semibold">
+                Email
+              </h3>
 
-              <form className="space-y-6">
-
-                <input
-                  type="text"
-                  placeholder="Your Name"
-                  className="w-full p-4 rounded-2xl bg-white/10 border border-white/10 outline-none"
-                />
-
-                <input
-                  type="email"
-                  placeholder="Your Email"
-                  className="w-full p-4 rounded-2xl bg-white/10 border border-white/10 outline-none"
-                />
-
-                <textarea
-                  rows="5"
-                  placeholder="Your Message"
-                  className="w-full p-4 rounded-2xl bg-white/10 border border-white/10 outline-none"
-                ></textarea>
-
-                <button
-                  className="w-full py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 font-semibold hover:scale-105 transition"
-                >
-                  Send Message
-                </button>
-
-              </form>
-
+              <p className="text-gray-400 text-lg">
+                muskangautam9876@gmail.com
+              </p>
             </div>
+
+          </a>
+
+          {/* LINKEDIN */}
+          <a
+            href="https://linkedin.com/in/muskan-gautam-257a15332"
+            target="_blank"
+            className="flex items-center gap-5 group"
+          >
+
+            <div className="w-16 h-16 rounded-2xl bg-cyan-500/10 flex items-center justify-center text-3xl text-cyan-400 group-hover:scale-110 transition">
+              <FaLinkedin />
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-semibold">
+                LinkedIn
+              </h3>
+
+              <p className="text-gray-400 text-lg">
+                linkedin.com/in/muskan-gautam
+              </p>
+            </div>
+
+          </a>
+
+          {/* GITHUB */}
+          <a
+            href="https://github.com/MuskanGautam-25"
+            target="_blank"
+            className="flex items-center gap-5 group"
+          >
+
+            <div className="w-16 h-16 rounded-2xl bg-purple-500/10 flex items-center justify-center text-3xl text-purple-400 group-hover:scale-110 transition">
+              <FaGithub />
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-semibold">
+                GitHub
+              </h3>
+
+              <p className="text-gray-400 text-lg">
+                github.com/MuskanGautam-25
+              </p>
+            </div>
+
+          </a>
+
+        </div>
+
+        {/* SOCIAL CARD */}
+        <div className="bg-white/5 border border-white/10 rounded-[32px] backdrop-blur-lg p-10 text-center">
+
+          <h3 className="text-4xl font-semibold mb-5 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
+            Let's Connect
+          </h3>
+
+          <p className="text-gray-400 text-lg mb-8">
+            Follow me on social media or check out my work:
+          </p>
+
+          <div className="flex justify-center gap-6 text-3xl">
+
+            <a
+              href="https://github.com/MuskanGautam-25"
+              target="_blank"
+              className="w-16 h-16 rounded-full bg-white/10 flex items-center justify-center hover:bg-purple-500/20 hover:scale-110 transition"
+            >
+              <FaGithub />
+            </a>
+
+            <a
+              href="https://linkedin.com/in/muskan-gautam-257a15332"
+              target="_blank"
+              className="w-16 h-16 rounded-full bg-white/10 flex items-center justify-center hover:bg-cyan-500/20 hover:scale-110 transition"
+            >
+              <FaLinkedin />
+            </a>
+
+            <a
+              href="mailto:muskangautam9876@gmail.com"
+              className="w-16 h-16 rounded-full bg-white/10 flex items-center justify-center hover:bg-purple-500/20 hover:scale-110 transition"
+            >
+              <FaEnvelope />
+            </a>
 
           </div>
 
         </div>
 
-      </section>
+      </div>
+
+      {/* RIGHT SIDE FORM */}
+      <div className="bg-white/5 border border-white/10 rounded-[32px] backdrop-blur-lg p-10">
+
+        <h3 className="text-4xl font-semibold text-center mb-10">
+          Send Me a Message
+        </h3>
+
+        <form className="space-y-7">
+
+          <div>
+            <label className="block mb-3 text-lg text-gray-300">
+              Your Name
+            </label>
+
+            <input
+              type="text"
+              placeholder="Muskan Gautam"
+              className="w-full p-5 rounded-2xl bg-white/10 border border-white/10 outline-none text-lg"
+            />
+          </div>
+
+          <div>
+            <label className="block mb-3 text-lg text-gray-300">
+              Your Email
+            </label>
+
+            <input
+              type="email"
+              placeholder="you@example.com"
+              className="w-full p-5 rounded-2xl bg-white/10 border border-white/10 outline-none text-lg"
+            />
+          </div>
+
+          <div>
+            <label className="block mb-3 text-lg text-gray-300">
+              Your Message
+            </label>
+
+            <textarea
+              rows="6"
+              placeholder="Hi, I'd like to talk about..."
+              className="w-full p-5 rounded-2xl bg-white/10 border border-white/10 outline-none text-lg"
+            ></textarea>
+          </div>
+
+          <button
+            className="w-full py-5 rounded-2xl bg-gradient-to-r from-purple-500 to-cyan-400 text-xl font-semibold hover:scale-[1.02] transition duration-300"
+          >
+            Send Message
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
     </div>
   );
