@@ -23,7 +23,7 @@ function App() {
     title: "TrustHire – AI Job Scam Detection",
     desc: "AI-powered platform that analyzes job offers and detects scam probability using NLP and red-flag analysis. Built with React, Node.js, Express, and Supabase authentication.",
     tech: ["React.js", "Node.js", "Express", "Supabase", "AI/NLP"],
-    github: "https://github.com/MuskanGautam-25",
+    github: "https://github.com/CoderJhaji/Katalyst_Project",
     live: "#",
     image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
   },
@@ -41,7 +41,7 @@ function App() {
     title: "Personal Portfolio Website",
     desc: "Modern animated developer portfolio built using React, Tailwind CSS, Framer Motion, and interactive cursor effects inspired by modern UI portfolios.",
     tech: ["React.js", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/MuskanGautam-25",
+    github: "https://github.com/MuskanGautam-25/portfolio",
     live: "#",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop",
   },
@@ -125,7 +125,7 @@ function App() {
   className="min-h-screen flex items-center justify-center px-6 pt-28 relative z-10"
 >
 
-  <div className="max-w-6xl w-full grid lg:grid-cols-2 gap-16 items-center">
+  <div className="max-w-7xl w-full grid lg:grid-cols-2 gap-24 items-center">
 
     {/* LEFT SIDE */}
     <motion.div
@@ -139,14 +139,14 @@ function App() {
         Hello, my name is
       </p>
 
-      <h1 className="text-6xl lg:text-7xl font-bold leading-tight">
+      <h1 className="text-7xl lg:text-[90px] font-black leading-[1.05] tracking-tight">
         Muskan{" "}
         <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
           Gautam
         </span>
       </h1>
 
-      <h2 className="text-4xl text-gray-300 leading-snug">
+      <h2 className="text-3xl lg:text-5xl text-gray-300 leading-tight font-light">
   I build things for the{" "}
 
   <span className="text-purple-400 font-semibold">
@@ -167,14 +167,14 @@ function App() {
 
 </h2>
 
-      <p className="text-gray-400 text-lg leading-9 max-w-xl">
+     <p className="text-gray-400 text-xl leading-10 max-w-2xl">
         A passionate IT student at IGDTUW exploring Web Development,
        Artificial Intelligence, and impactful
         technology solutions.
       </p>
 
       {/* BUTTONS */}
-      <div className="flex gap-5 pt-2">
+      <div className="flex gap-6 pt-6">
 
         <a
           href="#projects"
@@ -231,11 +231,11 @@ function App() {
       {/* IMAGE BOX */}
       <div className="relative z-10">
 
-        <img
-          src={portfolio}
-          alt="profile"
-          className="w-[420px] lg:w-[450px] object-cover drop-shadow-[0_0_35px_rgba(168,85,247,0.45)]"
-        />
+       <img
+  src={portfolio}
+  alt="profile"
+  className="w-[320px] lg:w-[370px] rounded-[30px] object-cover border border-white/10 shadow-2xl shadow-purple-500/20"
+/>
 
       </div>
 
