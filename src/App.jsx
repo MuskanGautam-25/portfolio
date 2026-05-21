@@ -375,9 +375,7 @@ function App() {
                   "GitHub",
                   "VS Code",
                   "Node.js",
-                  "MongoDB",
-                  "Firebase",
-                  "Cloud Computing",
+          
                   "AI/ML",
                   "Responsive Design",
                 ].map((tool, index) => (
