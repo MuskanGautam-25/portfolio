@@ -340,7 +340,7 @@ function App() {
                   ["JavaScript", "88%"],
                   ["React", "85%"],
                   ["Tailwind CSS", "90%"],
-                  ["C++", "80%"],
+                  ["Java", "80%"],
                 ].map(([skill, level], index) => (
 
                   <div key={index}>
@@ -375,9 +375,7 @@ function App() {
                   "GitHub",
                   "VS Code",
                   "Node.js",
-                  "MongoDB",
-                  "Firebase",
-                  "Cloud Computing",
+                
                   "AI/ML",
                   "Responsive Design",
                 ].map((tool, index) => (
